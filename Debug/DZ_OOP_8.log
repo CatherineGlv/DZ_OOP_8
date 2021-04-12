@@ -1,0 +1,3 @@
+﻿  DZ_OOP_8.1.cpp
+D:\DZ\DZ_OOP_8\DZ_OOP_8\DZ_OOP_8.1.cpp(15,39): error C2440: <function-style-cast>: невозможно преобразовать "const char [17]" в "MyException"
+D:\DZ\DZ_OOP_8\DZ_OOP_8\DZ_OOP_8.1.cpp(15,39): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
