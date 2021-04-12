@@ -1,22 +1,27 @@
 #include <iostream>
 using namespace std
+
 class Ex
 {
 public:
     double n;
-    Ex(const double& n_) : n(n_) {}
-    ~Ex() {}
+    Ex(const double& n_) : n(n_) 
+    {}
+    ~Ex() 
+    {}
 };
 
 class Bar
-{private:
-    double y
+{
+private:
+    double y;
 public:
     Bar() 
     { 
-        y = 0
+        y = 0;
     }
-    ~Bar() {}
+    ~Bar() 
+    {}
     void set(const double& a)
     {
         if (y + a > 100)
@@ -24,18 +29,19 @@ public:
             y = a;
 
         }
-        else throw Ex(a * y)
+        else throw Ex(a * y);
     }
 };
 
 int main()
 {
-    Bar b
-    int n
+    Bar b;
+    int n;
     while (cin >> n && n != 0) 
-    {try
+    {
+        try
         {
-            b.set(n)
+            b.set(n);
         }
         catch (Ex& err)
         {
